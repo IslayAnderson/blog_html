@@ -61,9 +61,9 @@
             $posts = get_blogs();
             ?>
             <div class="inner">
-                <?php for ($i = 0; $i <= 3; $i++) : ?>
-                    <a href="<?= $posts[$i]['path'] ?>">
-                        <p><?= $posts[$i]['excerpt'] ?></p>
+                <?php for ($i = 0; $i <= 2; $i++) : ?>
+                    <a href="<?= $posts[$i]->path ?>">
+                        <p><?= $posts[$i]->excerpt ?></p>
                     </a>
                 <?php endfor; ?>
             </div>
