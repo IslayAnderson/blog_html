@@ -1,7 +1,4 @@
-<?php
-//Helpers
-include __DIR__ . '/assets/php/functions.php';
-?>
+<?php include __DIR__ . '/assets/php/functions.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -66,7 +63,7 @@ include __DIR__ . '/assets/php/functions.php';
             <div class="inner">
                 <?php for ($i = 0; $i <= 3; $i++) : ?>
                     <a href="<?= $posts[$i]['path'] ?>">
-                        <p><?= implode(' ', array_slice(explode(' ', strip_tags($posts[$i]['excerpt'])), 0, 30)) ?></p>
+                        <p><?= $posts[$i]['excerpt'] ?></p>
                     </a>
                 <?php endfor; ?>
             </div>

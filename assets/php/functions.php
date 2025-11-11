@@ -1,34 +1,47 @@
 <?php
 
+/**
+ * Check if posts have changed and return generated json else regenerate posts json.
+ * @return array All posts
+ */
 function get_blogs(): array
 {
-    $blogs = file_exists(__DIR__ . '/assets/json/posts.json') ? json_decode(file_get_contents(__DIR__ . '/assets/json/posts.json')) : array(
-        "checksum" => "",
-        "blogs" => array()
-    );
-    if (!folderChecksumMatches(__DIR__ . '/blogs', $blogs['checksum'])) {
-        $blogs['checksum'] = generateFolderChecksum(__DIR__ . '/blogs');
-        $blog_files = glob("blogs/**/**/index.php");
+    $blogs = (array)json_decode(file_get_contents(__DIR__ . '/../json/posts.json'));
+    if (folderChecksumMatches(__DIR__ . '/../../blogs', $blogs['checksum'])) {
+        return $blogs['blogs'];
+    } else {
+        $blogs['blogs'] = [];
+        $blogs['checksum'] = generateFolderChecksum(__DIR__ . '/../../blogs');
+        $blog_files = glob(__DIR__ . "/../../blogs/**/**/index.php");
         foreach ($blog_files as $blog) {
             $data = get_post_meta($blog);
             $data['path'] = "/blogs/" . explode("/blogs/", str_replace("index.php", "", $blog))[1];
             $blogs['blogs'][] = $data;
         }
-        file_put_contents(__DIR__ . '/assets/json/posts.json', json_encode($blogs['blogs'], JSON_PRETTY_PRINT));
-        return $blogs['blogs'];
-    } else {
+        usort($blogs['blogs'], function ($a, $b) {
+            return strtotime($b['date']) <=> strtotime($a['date']);
+        });
+        file_put_contents(__DIR__ . '/../json/posts.json', json_encode($blogs, JSON_PRETTY_PRINT));
         return $blogs['blogs'];
     }
 }
 
 
+/**
+ * @param string $path post path
+ * @return array Post meta
+ */
 function get_post_meta(string $path): array
 {
     $post_content = file_get_contents($path);
-    $clean = preg_replace(['/\/\*/', '/\*\//'], '', $post_content);
-    $clean = preg_replace('/^\s*\*\s?/m', '', $clean);
-    $clean = trim($clean);
-    $json = '{' . $clean . '}';
+    if (!preg_match('#/\*\s*(.*?)\s*\*/#s', $post_content, $match)) {
+        return [];
+    }
+
+    $inner = $match[1];
+    $inner = preg_replace('/^\s*\*\s?/m', '', $inner);
+    $inner = trim($inner);
+    $json = '{' . $inner . '}';
     $data = json_decode($json, true);
 
     return is_array($data) ? $data : [];
@@ -85,4 +98,10 @@ function folderChecksumMatches(string $directory, string $knownChecksum): bool
 {
     $current = generateFolderChecksum($directory);
     return hash_equals($knownChecksum, $current);
+}
+
+
+foreach (glob(__DIR__ . '/*.php') as $file) {
+    if ($file == __FILE__) continue;
+    include_once $file;
 }

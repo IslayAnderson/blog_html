@@ -5,3 +5,15 @@
  * "thumbnail":"Screenshot-2025-01-25-at-21.48.09-png-e1737841806929.avif",
  * "date":"2025-01-25"
  */
+
+head(get_post_meta(__FILE__));
+
+?>
+
+    <body>
+
+    
+    </body>
+
+<?php foot();
+
