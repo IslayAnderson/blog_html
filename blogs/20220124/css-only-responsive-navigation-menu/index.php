@@ -2,7 +2,7 @@
 /*
  * "title":"CSS-only Responsive Navigation Menu",
  * "excerpt":"In one of the many unsuccessful job applications, I have completed this one required me to build a navigation menu as a technical test.",
- * "thumbnail":"thumbnail.jpg",
+ * "thumbnail":"thumbnail-6.jpg",
  * "date":"2022-24-01"
  */
 include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions.php';

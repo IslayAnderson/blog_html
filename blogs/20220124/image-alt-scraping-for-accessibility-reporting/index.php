@@ -2,7 +2,7 @@
 /*
  * "title":"Image ALT Scraping for Accessibility Reporting",
  * "excerpt":"In a previous employment we had someone who’s job it was to update alt tags on images and shareholders and management needed reports on progress so I built a small script to just that as well as another to make suggestions for the alt tag using the google vision API.",
- * "thumbnail":"thumbnail.jpg",
+ * "thumbnail":"thumbnail-3.jpg",
  * "date":"2022-24-01"
  */
 include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions.php';

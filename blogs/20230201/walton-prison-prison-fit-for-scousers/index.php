@@ -2,7 +2,7 @@
 /*
  * "title":"Walton Prison: A Prison un-fit for rats",
  * "excerpt":"In 2015, 2017, 2019 and 2022 Walton prison was subject to unannounced investigations each time calling it the worst prison in Britain finding it overcrowded, dirty, dangerous and inhumane.",
- * "thumbnail":"thumbnail.jpg",
+ * "thumbnail":"thumbnail-2.jpg",
  * "date":"2023-02-01"
  */
 include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions.php';

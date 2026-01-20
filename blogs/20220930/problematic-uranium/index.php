@@ -2,7 +2,7 @@
 /*
  * "title":"Problematic Uranium",
  * "excerpt":"This is the only outcome that can be expected from French imperialism in Niger, the racist exploitation of the Niger people, their resources and the poisoning of their land and water.",
- * "thumbnail":"thumbnail.jpg",
+ * "thumbnail":"thumbnail-4.jpg",
  * "date":"2022-09-30"
  */
 include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions.php';

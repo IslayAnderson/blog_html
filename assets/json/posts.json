@@ -1,5 +1,5 @@
 {
-    "checksum": "fe7c7885c94903fe3216f1ea1336367b2fc8fdd8a605bb231827fba8c93df09a",
+    "checksum": "1e318cdc0e9f3fb50c931bdc1887add3f8c48c87c6e1f855d68ebd0a01f1dfc3",
     "blogs": [
         {
             "title": "root word highlighting in assistive tools",
@@ -11,63 +11,63 @@
         {
             "title": "Understanding component use on production systems",
             "excerpt": "When taking on the codebase for an existing monolithic website that tightly integrated with the processes and policies of organisation like those seen in the public sector its important to get a map and full understanding of where and how components placed on the website.",
-            "thumbnail": "thumbnail.jpg",
+            "thumbnail": "thumbnail-1.jpg",
             "date": "2023-02-09",
             "path": "\/blogs\/20231107\/wip-concept-for-monitoring-and-understanding-component-use-on-production-systems\/"
         },
         {
             "title": "Walton Prison: A Prison un-fit for rats",
             "excerpt": "In 2015, 2017, 2019 and 2022 Walton prison was subject to unannounced investigations each time calling it the worst prison in Britain finding it overcrowded, dirty, dangerous and inhumane.",
-            "thumbnail": "thumbnail.jpg",
+            "thumbnail": "thumbnail-2.jpg",
             "date": "2023-02-01",
             "path": "\/blogs\/20230201\/walton-prison-prison-fit-for-scousers\/"
         },
         {
             "title": "Cuba shows the world how a democracy and the family co-exist",
             "excerpt": "On September the 22nd 6 million Cubans took part in a constitutional referendum to include some of the most progressive legislation regarding sexuality, gender and the family unit.<br>Passing with a 74% turnout voting in favour at 67%.",
-            "thumbnail": "thumbnail.jpg",
+            "thumbnail": "thumbnail-3.jpg",
             "date": "2022-11-09",
             "path": "\/blogs\/20221109\/cuba-shows-the-world-how-a-democracy-and-the-family-co-exist\/"
         },
         {
             "title": "Problematic Uranium",
             "excerpt": "This is the only outcome that can be expected from French imperialism in Niger, the racist exploitation of the Niger people, their resources and the poisoning of their land and water.",
-            "thumbnail": "thumbnail.jpg",
+            "thumbnail": "thumbnail-4.jpg",
             "date": "2022-09-30",
             "path": "\/blogs\/20220930\/problematic-uranium\/"
         },
         {
             "title": "A Concept for Generating Random Seeds with AI on Light Weight Devices",
             "excerpt": "Obviously, this is nothing new, but I was thinking about the potential NSA backdoor in intel\u2019s random number generator RDRAND and the vulnerabilities in the UNIX PRNG.",
-            "thumbnail": "thumbnail.jpg",
+            "thumbnail": "thumbnail-5.jpg",
             "date": "2022-24-01",
             "path": "\/blogs\/20220124\/a-concept-for-generating-random-seeds-with-ai-on-light-weight-devices\/"
         },
         {
             "title": "CSS-only Responsive Navigation Menu",
             "excerpt": "In one of the many unsuccessful job applications, I have completed this one required me to build a navigation menu as a technical test.",
-            "thumbnail": "thumbnail.jpg",
+            "thumbnail": "thumbnail-6.jpg",
             "date": "2022-24-01",
             "path": "\/blogs\/20220124\/css-only-responsive-navigation-menu\/"
         },
         {
             "title": "Forced to Care About Internet Explorer: lazy loading",
             "excerpt": "If you work in the public sector you\u2019ll be forced to care about IE and especially speed and as is the public sector you need to spend as little time as possible time on any project.",
-            "thumbnail": "thumbnail.jpg",
+            "thumbnail": "thumbnail-7.jpg",
             "date": "2022-24-01",
             "path": "\/blogs\/20220124\/forced-to-care-about-internet-explorer-lazy-loading\/"
         },
         {
             "title": "Image ALT Scraping for Accessibility Reporting",
             "excerpt": "In a previous employment we had someone who\u2019s job it was to update alt tags on images and shareholders and management needed reports on progress so I built a small script to just that as well as another to make suggestions for the alt tag using the google vision API.",
-            "thumbnail": "thumbnail.jpg",
+            "thumbnail": "thumbnail-2.jpg",
             "date": "2022-24-01",
             "path": "\/blogs\/20220124\/gesture-based-controls-for-obs-studio-in-virtual-reality\/"
         },
         {
             "title": "Image ALT Scraping for Accessibility Reporting",
             "excerpt": "In a previous employment we had someone who\u2019s job it was to update alt tags on images and shareholders and management needed reports on progress so I built a small script to just that as well as another to make suggestions for the alt tag using the google vision API.",
-            "thumbnail": "thumbnail.jpg",
+            "thumbnail": "thumbnail-3.jpg",
             "date": "2022-24-01",
             "path": "\/blogs\/20220124\/image-alt-scraping-for-accessibility-reporting\/"
         }

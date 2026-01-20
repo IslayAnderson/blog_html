@@ -2,7 +2,7 @@
 /*
  * "title":"Forced to Care About Internet Explorer: lazy loading",
  * "excerpt":"If you work in the public sector you’ll be forced to care about IE and especially speed and as is the public sector you need to spend as little time as possible time on any project.",
- * "thumbnail":"thumbnail.jpg",
+ * "thumbnail":"thumbnail-7.jpg",
  * "date":"2022-24-01"
  */
 include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions.php';

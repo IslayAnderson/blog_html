@@ -2,7 +2,7 @@
 /*
  * "title":"Cuba shows the world how a democracy and the family co-exist",
  * "excerpt":"On September the 22nd 6 million Cubans took part in a constitutional referendum to include some of the most progressive legislation regarding sexuality, gender and the family unit.<br>Passing with a 74% turnout voting in favour at 67%.",
- * "thumbnail":"thumbnail.jpg",
+ * "thumbnail":"thumbnail-3.jpg",
  * "date":"2022-11-09"
  */
 include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions.php';

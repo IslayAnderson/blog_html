@@ -2,7 +2,7 @@
 /*
  * "title":"Understanding component use on production systems",
  * "excerpt":"When taking on the codebase for an existing monolithic website that tightly integrated with the processes and policies of organisation like those seen in the public sector its important to get a map and full understanding of where and how components placed on the website.",
- * "thumbnail":"thumbnail.jpg",
+ * "thumbnail":"thumbnail-1.jpg",
  * "date":"2023-02-09"
  */
 include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions.php';

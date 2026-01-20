@@ -2,7 +2,7 @@
 /*
  * "title":"A Concept for Generating Random Seeds with AI on Light Weight Devices",
  * "excerpt":"Obviously, this is nothing new, but I was thinking about the potential NSA backdoor in intel’s random number generator RDRAND and the vulnerabilities in the UNIX PRNG.",
- * "thumbnail":"thumbnail.jpg",
+ * "thumbnail":"thumbnail-5.jpg",
  * "date":"2022-24-01"
  */
 include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions.php';
