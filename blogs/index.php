@@ -13,6 +13,7 @@ head(get_post_meta(__FILE__));
 
 $blogs = (array)get_blogs();
 
+//var_dump(gettype($blogs));
 function sortFunction($a, $b)
 {
     if (!isset($a['date']) || !isset($b['date'])) return 0;
@@ -26,7 +27,7 @@ usort($blogs, 'sortFunction');
 
     <body>
     <div class="spread">
-        <?php foreach (get_blogs() as $blog): ?>
+        <?php foreach ($blogs as $blog): ?>
             <?php $blog = (array)$blog ?>
             <div class="page p1">
                 <article role="article" class="post">

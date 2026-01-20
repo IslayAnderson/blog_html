@@ -22,7 +22,7 @@ function get_blogs(): array
             return strtotime($b['date']) <=> strtotime($a['date']);
         });
         file_put_contents(__DIR__ . '/../json/posts.json', json_encode($blogs, JSON_PRETTY_PRINT));
-        return $blogs['blogs'];
+        return (array)$blogs['blogs'];
     }
 }
 
