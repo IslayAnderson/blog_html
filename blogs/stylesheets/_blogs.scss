@@ -44,26 +44,61 @@
     }
   }
 
-  &:nth-of-type(even) {
-    background: pink;
+  //&:nth-of-type(even) {
+  //  background: pink;
+  //
+  //  .title {
+  //    left: unset;
+  //    right: 0;
+  //
+  //    .big_abstract {
+  //      writing-mode: vertical-rl;
+  //    }
+  //  }
+  //
+  //  .excerpt {
+  //    right: unset;
+  //    left: 0;
+  //  }
+  //
+  //  .featured {
+  //    left: 0;
+  //    right: unset;
+  //  }
+  //}
 
-    .title {
-      left: unset;
-      right: 0;
 
-      .big_abstract {
-        writing-mode: vertical-rl;
+  @media (max-width: $sm) {
+    a {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+
+      .title {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+
+        .big_abstract {
+          height: auto;
+          display: contents;
+        }
       }
-    }
 
-    .excerpt {
-      right: unset;
-      left: 0;
-    }
+      .excerpt {
+        position: relative;
+        width: 100%;
 
-    .featured {
-      left: 0;
-      right: unset;
+        .featured {
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
     }
   }
 }

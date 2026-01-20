@@ -140,23 +140,31 @@ p {
   height: 100%;
   object-fit: cover;
 }
-.post:nth-of-type(even) {
-  background: pink;
-}
-.post:nth-of-type(even) .title {
-  left: unset;
-  right: 0;
-}
-.post:nth-of-type(even) .title .big_abstract {
-  writing-mode: vertical-rl;
-}
-.post:nth-of-type(even) .excerpt {
-  right: unset;
-  left: 0;
-}
-.post:nth-of-type(even) .featured {
-  left: 0;
-  right: unset;
+@media (max-width: 768px) {
+  .post a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .post a .title {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .post a .title .big_abstract {
+    height: auto;
+    display: contents;
+  }
+  .post a .excerpt {
+    position: relative;
+    width: 100%;
+  }
+  .post a .excerpt .featured img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .spread {
