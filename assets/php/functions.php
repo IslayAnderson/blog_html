@@ -7,7 +7,8 @@
 function get_blogs(): array
 {
     $blogs = (array)json_decode(file_get_contents(__DIR__ . '/../json/posts.json'));
-    if (folderChecksumMatches(__DIR__ . '/../../blogs', $blogs['checksum'])) {
+//    if (folderChecksumMatches(__DIR__ . '/../../blogs', $blogs['checksum'])) {
+    if (false) {
         return (array)$blogs['blogs'];
     } else {
         $blogs['blogs'] = [];
