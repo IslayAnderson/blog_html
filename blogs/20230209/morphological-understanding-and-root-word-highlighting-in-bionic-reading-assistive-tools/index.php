@@ -1,10 +1,7 @@
 <?php
 /*
- * "title":"Morphological understanding and root word highlighting in bionic reading assistive tools",
- * "excerpt":"In my last update to this project I implemented functionality to check if the text was in the viewport to
-            improve performance and using the perceived contrast algorithm laid out in the wcag 2.1 spec, functionality
-            that changes the font colour of the highlighted text to the highest contrast colour against the existing
-            background.",
+ * "title":"root word highlighting in assistive tools",
+ * "excerpt":"In my last update to this project I implemented functionality to check if the text was in the viewport to improve performance and using the perceived contrast algorithm laid out in the wcag 2.1 spec, functionality that changes the font colour of the highlighted text to the highest contrast colour against the existing background.",
  * "thumbnail":"thumbnail.jpg",
  * "date":"2023-02-09"
  */

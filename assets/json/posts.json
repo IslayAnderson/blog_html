@@ -1,6 +1,20 @@
 {
-    "checksum": "6a0a0eacc199b803234282d52735445d82e6a38b76d8473ddd87dbaab6a3af34",
+    "checksum": "fe7c7885c94903fe3216f1ea1336367b2fc8fdd8a605bb231827fba8c93df09a",
     "blogs": [
+        {
+            "title": "root word highlighting in assistive tools",
+            "excerpt": "In my last update to this project I implemented functionality to check if the text was in the viewport to improve performance and using the perceived contrast algorithm laid out in the wcag 2.1 spec, functionality that changes the font colour of the highlighted text to the highest contrast colour against the existing background.",
+            "thumbnail": "thumbnail.jpg",
+            "date": "2023-02-09",
+            "path": "\/blogs\/20230209\/morphological-understanding-and-root-word-highlighting-in-bionic-reading-assistive-tools\/"
+        },
+        {
+            "title": "Understanding component use on production systems",
+            "excerpt": "When taking on the codebase for an existing monolithic website that tightly integrated with the processes and policies of organisation like those seen in the public sector its important to get a map and full understanding of where and how components placed on the website.",
+            "thumbnail": "thumbnail.jpg",
+            "date": "2023-02-09",
+            "path": "\/blogs\/20231107\/wip-concept-for-monitoring-and-understanding-component-use-on-production-systems\/"
+        },
         {
             "title": "Walton Prison: A Prison un-fit for rats",
             "excerpt": "In 2015, 2017, 2019 and 2022 Walton prison was subject to unannounced investigations each time calling it the worst prison in Britain finding it overcrowded, dirty, dangerous and inhumane.",
@@ -56,12 +70,6 @@
             "thumbnail": "thumbnail.jpg",
             "date": "2022-24-01",
             "path": "\/blogs\/20220124\/image-alt-scraping-for-accessibility-reporting\/"
-        },
-        {
-            "path": "\/blogs\/20230209\/morphological-understanding-and-root-word-highlighting-in-bionic-reading-assistive-tools\/"
-        },
-        {
-            "path": "\/blogs\/20231107\/wip-concept-for-monitoring-and-understanding-component-use-on-production-systems\/"
         }
     ]
 }

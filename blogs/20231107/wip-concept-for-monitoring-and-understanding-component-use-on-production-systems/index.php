@@ -1,9 +1,7 @@
 <?php
 /*
- * "title":"Concept for monitoring and understanding component use on production systems",
- * "excerpt":"When taking on the codebase for an existing monolithic website that tightly integrated with the processes and
-            policies of organisation like those seen in the public sector its important to get a map and full
-            understanding of where and how components placed on the website.",
+ * "title":"Understanding component use on production systems",
+ * "excerpt":"When taking on the codebase for an existing monolithic website that tightly integrated with the processes and policies of organisation like those seen in the public sector its important to get a map and full understanding of where and how components placed on the website.",
  * "thumbnail":"thumbnail.jpg",
  * "date":"2023-02-09"
  */
@@ -14,7 +12,7 @@ head(get_post_meta(__FILE__));
 
     <body>
     <div class="basic">
- 
+
         <h1>Concept for monitoring and understanding component use on production systems</h1>
 
         <p>watch the project repository for testing updates </p>
