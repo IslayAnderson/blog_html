@@ -1,26 +1,67 @@
 {
-    "checksum": "13c83c976abc596b9d74b3ce095121be9ec4eb775a0bac9098c06be5f891cddd",
+    "checksum": "9d08e0a00ff803ff3745193c9a22c106203122f4178baeac9e98de55d0e85757",
     "blogs": [
         {
-            "title": "Project Update: OOTD (Recent Developments)",
-            "excerpt": "Progress has picked up again on OOTD, with several key milestones achieved over the past few weeks. For those unfamiliar, OOTD is a Blogging platform, mashing together short form\/ephemeral micro blogging, long form written content and the killer feature of acting like inventory management system for your wardrobe, giving daily insights on trends and how you use your wardrobe. All that while giving users the tools to shape their public profile and posts the way they want, encouraging individual creativity.",
-            "thumbnail": "Screenshot-2025-01-25-at-21.48.09-png-e1737841806929.avif",
-            "date": "2025-01-25",
-            "path": "\/blogs\/20250125\/project-update-ootd\/"
+            "title": "Walton Prison: A Prison un-fit for rats",
+            "excerpt": "In 2015, 2017, 2019 and 2022 Walton prison was subject to unannounced investigations each time calling it the worst prison in Britain finding it overcrowded, dirty, dangerous and inhumane.",
+            "thumbnail": "thumbnail.jpg",
+            "date": "2023-02-01",
+            "path": "\/blogs\/20230201\/walton-prison-prison-fit-for-scousers\/"
         },
         {
-            "title": "Spam is for sandwiches, not SEO",
-            "excerpt": "1.4 gigabytes of spam came through my comments on the 10th of this month. Which is very frustrating because I like having comments enabled, when I was a teenager and learning to program(programme?) I would use blog comments all the time. What did I do?I enabled rate limiting and the cloudflare captcha on post, what",
-            "thumbnail": "Screenshot-2025-01-25-at-21.48.09-png-e1737841806929.avif",
-            "date": "2024-11-28",
-            "path": "\/blogs\/20241128\/spam-is-for-sandwiches\/"
+            "title": "Cuba shows the world how a democracy and the family co-exist",
+            "excerpt": "On September the 22nd 6 million Cubans took part in a constitutional referendum to include some of the most progressive legislation regarding sexuality, gender and the family unit.<br>Passing with a 74% turnout voting in favour at 67%.",
+            "thumbnail": "thumbnail.jpg",
+            "date": "2022-11-09",
+            "path": "\/blogs\/20221109\/cuba-shows-the-world-how-a-democracy-and-the-family-co-exist\/"
         },
         {
-            "title": "Inventory management, but it\u2019s fashion, and its social!?",
-            "excerpt": "OOTD(working title) is essentially an inventory management system skinned for fashionistas like moi with social elements.except I\u2019m building this just for me and for fun, so follow the progress on GitHub and twitter and here, errrm. I plan to build a functioning prototype, invite people, and continue adding features until I get bored. Core functionality",
-            "thumbnail": "Screenshot-2025-01-25-at-21.48.09-png-e1737841806929.avif",
-            "date": "2024-11-09",
-            "path": "\/blogs\/20241109\/inventory-management\/"
+            "title": "Problematic Uranium",
+            "excerpt": "This is the only outcome that can be expected from French imperialism in Niger, the racist exploitation of the Niger people, their resources and the poisoning of their land and water.",
+            "thumbnail": "thumbnail.jpg",
+            "date": "2022-09-30",
+            "path": "\/blogs\/20220930\/problematic-uranium\/"
+        },
+        {
+            "title": "A Concept for Generating Random Seeds with AI on Light Weight Devices",
+            "excerpt": "Obviously, this is nothing new, but I was thinking about the potential NSA backdoor in intel\u2019s random number generator RDRAND and the vulnerabilities in the UNIX PRNG.",
+            "thumbnail": "thumbnail.jpg",
+            "date": "2022-24-01",
+            "path": "\/blogs\/20220124\/a-concept-for-generating-random-seeds-with-ai-on-light-weight-devices\/"
+        },
+        {
+            "title": "CSS-only Responsive Navigation Menu",
+            "excerpt": "In one of the many unsuccessful job applications, I have completed this one required me to build a navigation menu as a technical test.",
+            "thumbnail": "thumbnail.jpg",
+            "date": "2022-24-01",
+            "path": "\/blogs\/20220124\/css-only-responsive-navigation-menu\/"
+        },
+        {
+            "title": "Forced to Care About Internet Explorer: lazy loading",
+            "excerpt": "If you work in the public sector you\u2019ll be forced to care about IE and especially speed and as is the public sector you need to spend as little time as possible time on any project.",
+            "thumbnail": "thumbnail.jpg",
+            "date": "2022-24-01",
+            "path": "\/blogs\/20220124\/forced-to-care-about-internet-explorer-lazy-loading\/"
+        },
+        {
+            "title": "Image ALT Scraping for Accessibility Reporting",
+            "excerpt": "In a previous employment we had someone who\u2019s job it was to update alt tags on images and shareholders and management needed reports on progress so I built a small script to just that as well as another to make suggestions for the alt tag using the google vision API.",
+            "thumbnail": "thumbnail.jpg",
+            "date": "2022-24-01",
+            "path": "\/blogs\/20220124\/gesture-based-controls-for-obs-studio-in-virtual-reality\/"
+        },
+        {
+            "title": "Image ALT Scraping for Accessibility Reporting",
+            "excerpt": "In a previous employment we had someone who\u2019s job it was to update alt tags on images and shareholders and management needed reports on progress so I built a small script to just that as well as another to make suggestions for the alt tag using the google vision API.",
+            "thumbnail": "thumbnail.jpg",
+            "date": "2022-24-01",
+            "path": "\/blogs\/20220124\/image-alt-scraping-for-accessibility-reporting\/"
+        },
+        {
+            "path": "\/blogs\/20230209\/morphological-understanding-and-root-word-highlighting-in-bionic-reading-assistive-tools\/"
+        },
+        {
+            "path": "\/blogs\/20231107\/wip-concept-for-monitoring-and-understanding-component-use-on-production-systems\/"
         }
     ]
 }

@@ -15,14 +15,15 @@ head(get_post_meta(__FILE__));
     <body>
     <div class="spread">
         <?php foreach (get_blogs() as $blog): ?>
+            <?php $blog = (array)$blog ?>
             <div class="page p1">
-                <article role="article">
+                <article role="article" class="post">
                     <a href="<?= $blog['path'] ?>" rel="bookmark" title="<?= $blog['title'] ?>">
                         <div class="title">
                             <h2 class="big_abstract"><?= $blog['title'] ?></h2>
                         </div>
                         <div class="excerpt">
-                            <?= $blog['excerpt'] ?>
+                            <p><?= $blog['excerpt'] ?></p>
                         </div>
                         <div class="featured">
                             <img src="/assets/images/<?= $blog['thumbnail'] ?>">
