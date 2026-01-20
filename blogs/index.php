@@ -24,9 +24,9 @@ head(get_post_meta(__FILE__));
                         </div>
                         <div class="excerpt">
                             <p><?= $blog['excerpt'] ?></p>
-                        </div>
-                        <div class="featured">
-                            <img src="/assets/images/<?= $blog['thumbnail'] ?>">
+                            <div class="featured">
+                                <img src="/assets/images/<?= $blog['thumbnail'] ?>">
+                            </div>
                         </div>
                     </a>
                 </article>
