@@ -1,75 +1,75 @@
 {
-    "checksum": "9df1caca7954605fa3932e3303bcffdd08a836713bf6fbefeddd0a92f2ea63b2",
+    "checksum": "f43c5031bed0ccf7da7c72500b91296292b44303f0c6241ba9a36f2945a8a940",
     "blogs": [
         {
             "title": "root word highlighting in assistive tools",
             "excerpt": "In my last update to this project I implemented functionality to check if the text was in the viewport to improve performance and using the perceived contrast algorithm laid out in the wcag 2.1 spec, functionality that changes the font colour of the highlighted text to the highest contrast colour against the existing background.",
             "thumbnail": "thumbnail.jpg",
             "date": "2023-02-09",
-            "path": "\/blogs\/20230209\/morphological-understanding-and-root-word-highlighting-in-bionic-reading-assistive-tools\/"
+            "path": "\/blog\/morphological-understanding-and-root-word-highlighting-in-bionic-reading-assistive-tools\/"
         },
         {
             "title": "Understanding component use on production systems",
             "excerpt": "When taking on the codebase for an existing monolithic website that tightly integrated with the processes and policies of organisation like those seen in the public sector its important to get a map and full understanding of where and how components placed on the website.",
             "thumbnail": "thumbnail-1.jpg",
             "date": "2023-02-09",
-            "path": "\/blogs\/20231107\/wip-concept-for-monitoring-and-understanding-component-use-on-production-systems\/"
+            "path": "\/blog\/wip-concept-for-monitoring-and-understanding-component-use-on-production-systems\/"
         },
         {
             "title": "Walton Prison: A Prison un-fit for rats",
             "excerpt": "In 2015, 2017, 2019 and 2022 Walton prison was subject to unannounced investigations each time calling it the worst prison in Britain finding it overcrowded, dirty, dangerous and inhumane.",
             "thumbnail": "thumbnail-2.jpg",
             "date": "2023-02-01",
-            "path": "\/blogs\/20230201\/walton-prison-prison-fit-for-scousers\/"
+            "path": "\/blog\/walton-prison-prison-fit-for-scousers\/"
         },
         {
             "title": "Cuba shows the world how a democracy and the family co-exist",
             "excerpt": "On September the 22nd 6 million Cubans took part in a constitutional referendum to include some of the most progressive legislation regarding sexuality, gender and the family unit.<br>Passing with a 74% turnout voting in favour at 67%.",
             "thumbnail": "thumbnail-3.jpg",
             "date": "2022-11-09",
-            "path": "\/blogs\/20221109\/cuba-shows-the-world-how-a-democracy-and-the-family-co-exist\/"
+            "path": "\/blog\/cuba-shows-the-world-how-a-democracy-and-the-family-co-exist\/"
         },
         {
             "title": "Problematic Uranium",
             "excerpt": "This is the only outcome that can be expected from French imperialism in Niger, the racist exploitation of the Niger people, their resources and the poisoning of their land and water.",
             "thumbnail": "thumbnail-4.jpg",
             "date": "2022-09-30",
-            "path": "\/blogs\/20220930\/problematic-uranium\/"
+            "path": "\/blog\/problematic-uranium\/"
         },
         {
             "title": "A Concept for Generating Random Seeds with AI on Light Weight Devices",
             "excerpt": "Obviously, this is nothing new, but I was thinking about the potential NSA backdoor in intel\u2019s random number generator RDRAND and the vulnerabilities in the UNIX PRNG.",
             "thumbnail": "thumbnail-5.jpg",
             "date": "2022-24-01",
-            "path": "\/blogs\/20220124\/a-concept-for-generating-random-seeds-with-ai-on-light-weight-devices\/"
+            "path": "\/blog\/a-concept-for-generating-random-seeds-with-ai-on-light-weight-devices\/"
         },
         {
             "title": "CSS-only Responsive Navigation Menu",
             "excerpt": "In one of the many unsuccessful job applications, I have completed this one required me to build a navigation menu as a technical test.",
             "thumbnail": "thumbnail-6.jpg",
             "date": "2022-24-01",
-            "path": "\/blogs\/20220124\/css-only-responsive-navigation-menu\/"
+            "path": "\/blog\/css-only-responsive-navigation-menu\/"
         },
         {
             "title": "Forced to Care About Internet Explorer: lazy loading",
             "excerpt": "If you work in the public sector you\u2019ll be forced to care about IE and especially speed and as is the public sector you need to spend as little time as possible time on any project.",
             "thumbnail": "thumbnail-7.jpg",
             "date": "2022-24-01",
-            "path": "\/blogs\/20220124\/forced-to-care-about-internet-explorer-lazy-loading\/"
+            "path": "\/blog\/forced-to-care-about-internet-explorer-lazy-loading\/"
         },
         {
             "title": "Image ALT Scraping for Accessibility Reporting",
             "excerpt": "In a previous employment we had someone who\u2019s job it was to update alt tags on images and shareholders and management needed reports on progress so I built a small script to just that as well as another to make suggestions for the alt tag using the google vision API.",
             "thumbnail": "thumbnail-2.jpg",
             "date": "2022-24-01",
-            "path": "\/blogs\/20220124\/gesture-based-controls-for-obs-studio-in-virtual-reality\/"
+            "path": "\/blog\/gesture-based-controls-for-obs-studio-in-virtual-reality\/"
         },
         {
             "title": "Image ALT Scraping for Accessibility Reporting",
             "excerpt": "In a previous employment we had someone who\u2019s job it was to update alt tags on images and shareholders and management needed reports on progress so I built a small script to just that as well as another to make suggestions for the alt tag using the google vision API.",
             "thumbnail": "thumbnail-3.jpg",
             "date": "2022-24-01",
-            "path": "\/blogs\/20220124\/image-alt-scraping-for-accessibility-reporting\/"
+            "path": "\/blog\/image-alt-scraping-for-accessibility-reporting\/"
         }
     ]
 }

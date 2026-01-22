@@ -7,16 +7,16 @@
 function get_blogs(): array
 {
     $blogs = (array)json_decode(file_get_contents(__DIR__ . '/../json/posts.json'));
-//    if (folderChecksumMatches(__DIR__ . '/../../blogs', $blogs['checksum'])) {
+//    if (folderChecksumMatches(__DIR__ . '/../../blog', $blogs['checksum'])) {
     if (false) {
         return (array)$blogs['blogs'];
     } else {
         $blogs['blogs'] = [];
-        $blogs['checksum'] = generateFolderChecksum(__DIR__ . '/../../blogs');
-        $blog_files = glob(__DIR__ . "/../../blogs/**/**/index.php");
+        $blogs['checksum'] = generateFolderChecksum(__DIR__ . '/../../blog');
+        $blog_files = glob(__DIR__ . "/../../blog/**/index.php");
         foreach ($blog_files as $blog) {
             $data = get_post_meta($blog);
-            $data['path'] = "/blogs/" . explode("/blogs/", str_replace("index.php", "", $blog))[1];
+            $data['path'] = "/blog/" . explode("/blog/", str_replace("index.php", "", $blog))[1];
             $blogs['blogs'][] = $data;
         }
         usort($blogs['blogs'], function ($a, $b) {
