@@ -62,8 +62,8 @@
             ?>
             <div class="inner">
                 <?php for ($i = 0; $i <= 2; $i++) : ?>
-                    <a href="<?= $posts[$i]->path ?>">
-                        <p><?= $posts[$i]->excerpt ?></p>
+                    <a href="<?= $posts[$i]['path'] ?>">
+                        <p><?= substr($posts[$i]['excerpt'], 0, 200) ?></p>
                     </a>
                 <?php endfor; ?>
             </div>
