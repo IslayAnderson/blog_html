@@ -17,7 +17,7 @@ $blogs = (array)get_blogs();
 function sortFunction($a, $b)
 {
     if (!isset($a['date']) || !isset($b['date'])) return 0;
-    if ($a['date'] == $b['date']) return 0;
+    if ($a['date'] > $b['date']) return 0;
     return strtotime($a['date']) - strtotime($b['date']);
 }
 

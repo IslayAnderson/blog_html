@@ -1,6 +1,13 @@
 {
-    "checksum": "f43c5031bed0ccf7da7c72500b91296292b44303f0c6241ba9a36f2945a8a940",
+    "checksum": "55f4c7bee08694bea63fb8054c77aabc58f3220b8c1e3aa0a8f81a546ead4a62",
     "blogs": [
+        {
+            "title": "Thinking about the biases built into 'Democratised systems'",
+            "excerpt": "'The System is fundamentally flawed', a phrase regularly used to describe the Academic journal system. Yet a pattern we see over and over again in democratised systems",
+            "thumbnail": "IMGP1434.jpg",
+            "date": "2026-04-04",
+            "path": "\/blog\/thinking-about-the-biases-built-into-democratised-systems\/"
+        },
         {
             "title": "root word highlighting in assistive tools",
             "excerpt": "In my last update to this project I implemented functionality to check if the text was in the viewport to improve performance and using the perceived contrast algorithm laid out in the wcag 2.1 spec, functionality that changes the font colour of the highlighted text to the highest contrast colour against the existing background.",
