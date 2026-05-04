@@ -1,8 +1,8 @@
 <?php
 /*
- * "title":"Thinking about the biases built into "Democratised systems"",
+ * "title":"Thinking about the biases built into 'Democratised systems'",
  * "excerpt":"'The System is fundamentally flawed', a phrase regularly used to describe the Academic journal system. Yet a pattern we see over and over again in democratised systems",
- * "thumbnail":"thumbnail-5.jpg",
+ * "thumbnail":"IMGP1434.jpg",
  * "date":"2026-04-04"
  */
 include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/functions.php';
