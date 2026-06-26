@@ -11,6 +11,13 @@ head(get_post_meta(__FILE__));
 ?>
 
     <body>
+    <script src="http://localhost:8001/component-watcher.umd.cjs"></script>
+    <script>
+        ComponentWatcher.init({
+            apiUrl: 'http://localhost:8001',
+            siteKey: '0efa8c47-5fa9-4f63-9d2d-66ce9a2de866',
+        })
+    </script>
     <div class="basic">
         <p>&ldquo;The System is fundamentally flawed&rdquo;, a phrase regularly used to describe the
             Academic journal system. Throughout all history it seems that lying and deceiving in the pursuit of power

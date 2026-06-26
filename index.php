@@ -45,6 +45,13 @@
 
 </head>
 <body>
+<script src="http://localhost:8001/component-watcher.umd.cjs"></script>
+<script>
+    ComponentWatcher.init({
+        apiUrl: 'http://localhost:8001',
+        siteKey: '0efa8c47-5fa9-4f63-9d2d-66ce9a2de866',
+    })
+</script>
 <div class="spread">
     <div class="page p1">
         <div class="feature">
